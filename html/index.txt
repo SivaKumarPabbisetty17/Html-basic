@@ -1,0 +1,223 @@
+Html  --> defines the structure of web pages
+
+to bulid webpages we required 3 technnologies
+
+1.Html  --> it defines the structure of webpages
+2.css  --> it defines the presentation of webpages
+3.javascript --> responsible for handling interactivity
+
+
+to work html we need browser and code editor
+
+
+html is hyperText Markup language it is used to creates webpages
+
+markup means which tells the browser how to structure the webpages
+
+it consists of series of elements and each elements tells the browser how to display the content
+
+Html element is the buliding block of html document
+
+It has <tagname>Content goes here</tagname>
+
+its the first line in html  <!DOCTYPE html> where it tells the document is html
+
+the html tag <html> </html> wraps the content and is known as the root element
+
+the head element should not persent to the user
+
+where the body element should visibliy to the user
+
+different elements that are used in body element
+
+formatting Text
+--------------------------
+heading elements are titles and subtitle elements
+h1,h2,h3,h4,h5
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+
+<p>paragraph element</p>  --> it allows starts from new lines its block of text
+
+if we need intesionally to add linne breaks we use <br/> tag
+
+inline Text formatting
+----------------------------
+<strong></strong> --> for bold
+<em></em> --> italic
+<small></small> defines the small text
+<mark></mark> to highlight the text
+<del></del> it gives the stries of text
+<ins></ins> it gives the underline the text
+<sub></sub> it gives the subscripts for the text
+<sup></sup> it gives the superscripts for the text
+
+html element are block level and inline level elements
+
+block level element always takes full line and complete width of the line
+
+inline level element doesnot start on the new line and only takes up as much width as necessary
+
+division element of div tag this element is a block level element
+
+span element or span tag this element is inline
+
+list elements
+------------------
+html gives three types of list elements
+
+1. unordered list --> <ul><li></li></ul>
+    eg: 
+    <ul>
+        <li>milk</li>
+        <li>bread</li>
+        <li>eggs</li>
+    </ul>
+
+2. ordered list
+
+    eg:
+    <ol>
+        <li>milk</li>
+        <li>bread</li>
+        <li>eggs</li>
+    </ol>
+3. description list
+
+    eg:
+    <dl>
+        <dt>Ice Cream</dt>
+        <dd>-- A soft sweet frozen food</dd>
+        <dt>Tea </dt>
+        <dd>-- A hot Dirnk</dd>
+    </dl>
+
+
+
+html attributes can provide additional information about html elements
+
+all html elements can have attributes
+
+image tag
+-------------
+<img src='./logo.jpg' width='200' height='200' alt='logo'/>
+the default units is pixel 'px'
+
+link tag
+----------
+<a href='https://www.google.com/'>Google</a>
+
+if the link opens in the new tab then we need to use target attribute as _blank
+
+<a href='https://www.google.com/' target='_blank'>Google</a>
+
+
+tables
+------------
+
+<table>
+<thead>
+<tr>
+<th>Heading 1</th>
+<th>Heading 2</th>
+<th>Heading 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>data-1</td>
+<td>data-2</td>
+<td>data-3</td>
+</tr>
+<tr>
+<td>data-1</td>
+<td>data-2</td>
+<td>data-3</td>
+</tr>
+<tr>
+<td>data-1</td>
+<td>data-2</td>
+<td>data-3</td>
+</tr>
+<tr>
+<td>data-1</td>
+<td>data-2</td>
+<td>data-3</td>
+</tr>
+</tbody>
+</table>
+
+html forms
+---------------
+<form>
+        <label for='username'>userName</label>
+        <br/>
+        <input type='text' id='username' /> <br/>
+        <label for='abbout'>About you</label>
+        <br/>
+        <textarea id='abbout'></textarea>
+        <br/>
+        <label for='country'>country</label>
+        <select id='country'>
+            <option value='india'>India</option>
+            <option value='usa'>USA</option>
+        </select>
+        <label>job type</label>
+        <input type='radio' name='jobbtype' value="parttime" id="parttime" />
+        <label for="parttime">parttime</label>
+        <input type='radio' name='jobbtype' value="fulltime" id="fulltime" />
+        <label for="fulltime">fulltime</label>
+        <input type='checkbox' />
+    </form>
+
+
+semantic Html
+-----------------
+
+they are some semantic html
+-------------------------------
+1.header  <header></header>
+2.nav       <nav></nav>
+3.section   <section></section>
+4.aside     <aside></aside>
+5.article   <article></article>
+6.footer    <footer></footer>
+
+semantic html advantages
+-----------------------------
+
+suggest to the developer the type of data that will be populated
+
+
+head tag
+------------
+
+in the head tag we add meta tag
+
+<meta name='author' content='siva kumar' />
+<meta name='viewport' content='width=device-width , initial-scale=1.0' />
+
+
+style  tag and script tag
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
